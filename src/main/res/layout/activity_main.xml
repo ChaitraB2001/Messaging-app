@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9B3EF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#AA34F4"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#C64470"
+        android:gravity="top"
+        android:hint="Enter message"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#52328C"
+        android:text="Sim 1" />
+
+    <Button
+        android:id="@+id/bt_send2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B73FCC"
+        android:text="Sim 2" />
+
+
+</LinearLayout>
